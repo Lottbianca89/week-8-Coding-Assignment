@@ -1,0 +1,111 @@
+Style the website you made last week using CSS with the following requirements:
+Use only external CSS file (no internal or inline styling)
+Every element must be styled.
+Create style rules using class, id, and element selectors.
+Video Steps: -->
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #008cba;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-heading {
+    font-size: 36px;
+    margin: 0;
+}
+
+.sub-heading {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+nav {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-list a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-list {
+    list-style-type: square;
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.childcare-image {
+    width: 250px;
+    border: 2px solid #008cba;
+    border-radius: 10px;
+}
+
+.schedule-table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.schedule-table th, .schedule-table td {
+    padding: 10px;
+    border: 1px solid #008cba;
+}
+
+.schedule-table th {
+    background-color: #008cba;
+    color: #ffffff;
+}
+
+.footer {
+    text-align: center;
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
